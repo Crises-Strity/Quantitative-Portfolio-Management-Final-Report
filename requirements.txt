@@ -1,0 +1,6 @@
+getFamaFrenchFactors
+matplotlib
+numpy
+pandas
+pandas_datareader
+statsmodels
