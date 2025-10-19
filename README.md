@@ -1,6 +1,4 @@
 # <font color=blue>Final Report</font>
-
-# <font color=blue>Final Report</font>
 ## Quantitative Portfolio Management with **GEC Academy**
 ***
 <font size='5'>Session Outline</font>
@@ -10,14 +8,14 @@
 * Measuring Risk and Size Position
 * Assessing Impact of Transaction Cost
 
-## 📦 What’s inside
+## What’s inside
 - `Final_Report.ipynb` — the primary analysis notebook.
 - `data/monthly.csv` — the original dataset used by the notebook.
 - `requirements.txt` — Python dependencies inferred from the notebook.
 - `LICENSE` — MIT license.
 - `.gitignore` — ignores Python/Jupyter/OS cruft.
 
-## 🚀 Getting started
+## Getting started
 1. **Clone or download** this repository.
 2. (Recommended) Create and activate a virtual environment:
    ```bash
@@ -36,41 +34,11 @@
 
 > If your environment is managed (e.g., conda/mamba/poetry), feel free to install the packages listed in `requirements.txt` with your preferred tool.
 
-## 🗂️ Data
+## Data
 Original data lives in `data/monthly.csv`.
 
-### Columns & types
-- **Unnamed: 0**: `object`
-- **AAPL**: `float64`
-- **MSFT**: `float64`
-- **AMZN**: `float64`
-- **GOOGL**: `float64`
-- **META**: `float64`
-- **TSLA**: `float64`
-- **NVDA**: `float64`
-- **BABA**: `float64`
-- **TCEHY**: `float64`
-- **INTC**: `float64`
-- **ADBE**: `float64`
-- **NFLX**: `float64`
-- **CRM**: `float64`
-- **PYPL**: `float64`
-- **AMD**: `float64`
-- **BIDU**: `float64`
-- **CSCO**: `float64`
-- **QCOM**: `float64`
-- **SQ**: `float64`
-- **JD**: `float64`
-- **TWTR**: `float64`
-- **TEAM**: `float64`
-- **SHOP**: `float64`
-- **NOW**: `float64`
-- **WDAY**: `float64`
-- **SPLK**: `float64`
-- **MU**: `float64`
-- **NTES**: `float64`
-- **VEEV**: `float64`
-- **ADSK**: `float64`
+### Columns
+**AAPL**, **MSFT**, **AMZN**:, **GOOGL**, **META**, **TSLA**, **NVDA**, **BABA**, **TCEHY**, **INTC**, **ADBE**, **NFLX**, **CRM**, **PYPL**, **AMD**, **BIDU**, **CSCO**, **QCOM**, **SQ**, **JD**,  **TWTR**, **TEAM**, **SHOP**, **NOW**, **WDAY**, **SPLK**, **MU**, **NTES**, **VEEV**, **ADSK**, 
 
 ### Quick profile (from the uploaded file)
 - **Unnamed: 0** — count=92, unique=92
@@ -107,16 +75,16 @@ Original data lives in `data/monthly.csv`.
 
 > Note: The above profile is basic and intended as a quick reference. For fuller EDA, see the notebook.
 
-## 📓 Notebook
+## Notebook
 The notebook is designed to be run as-is. If you encounter missing packages, please add them to `requirements.txt` and reinstall.
 
-## 🔁 Reproducibility tips
+## Reproducibility tips
 - Run cells in order without skipping.
 - If the notebook writes output files, they will appear in subfolders created at runtime.
 - For exact results, use the same package versions as captured in `requirements.txt`.
 
 
-## 🧰 Source code
+## Source code
 
 Reusable functions/classes have been extracted into `src/utils.py`. In your notebook you can do:
 
@@ -125,11 +93,8 @@ from src.utils import load_data  # and any other functions/classes
 df = load_data()  # reads data/monthly.csv
 ```
 
-> 提示：随着项目扩展，你可以将 `src/utils.py` 拆分为多个模块（如 `data_utils.py`, `plot_utils.py`, `model_utils.py`），并在 `src/__init__.py` 中做统一导出。
-
-
-## 📝 License
+## License
 Released under the MIT License (see `LICENSE`).
 
-## 🙌 Acknowledgments
+## Acknowledgments
 If you use this work, please cite the repository or link back to it. Contributions via pull requests are welcome.
